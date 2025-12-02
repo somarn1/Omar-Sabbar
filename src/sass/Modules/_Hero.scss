@@ -1,0 +1,77 @@
+/* Carousel Text Position */
+
+.about .carousel-item {
+  position: relative;
+}
+
+.about .textHero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  text-align: center;
+  color: white;
+  width: 70%;
+}
+
+.about .textHero h3 {
+  font-size: 55px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Satisfy", cursive;
+}
+
+.about .textHero h3 span {
+  color: orange; 
+  font-family: "Satisfy", cursive;
+}
+
+.about .textHero p {
+
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto 30px auto; 
+  color: white;
+  width: 40vw; 
+  text-align: center;
+
+}
+
+/*  BUTTONS */
+
+.about .btns {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 68%;
+  display: flex;
+  gap: 20px;
+}
+
+.about .btns button {
+  padding: 12px 28px;
+  font-size: 17px;
+  border-radius: 30px;
+  background: transparent;
+  color:  white;
+  border: 2px solid  orange;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.about .btns button:hover {
+  background: orange;
+  border-color: orange;
+  color:  white;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: orange !important;
+}
