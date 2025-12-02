@@ -1,0 +1,12 @@
+@mixin myflex($param1, $direction, $param2, $param3, $param4){
+    
+    display: $param1 ; //flex 
+    flex-direction :  $direction ;
+    align-items : $param2 ;// items-center
+    justify-content :$param3 ;// center
+    gap : $param4 ;
+
+} 
+
+
+

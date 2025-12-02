@@ -1,0 +1,62 @@
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: none;
+  padding: 1vw;
+  padding-right: 8vw;
+  padding-left: 8vw;
+}
+.top .top-left {
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  justify-content: none;
+  gap: 1vw;
+}
+.top .top-left i {
+  color: orange;
+}
+.top .right-button button {
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6vw;
+  width: 10vw;
+  color: white;
+}
+
+.underNav {
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vw;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  background-color: rgba(0, 0, 0, 0.775);
+  height: 9vh;
+}
+.underNav a {
+  text-decoration: none;
+  padding: 1vw;
+  color: white;
+}
+.underNav .logo {
+  color: white;
+}
+.underNav a:hover {
+  color: orange;
+}
+
+/*# sourceMappingURL=app.css.map */

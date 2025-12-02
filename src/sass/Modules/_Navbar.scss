@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    @include myflex (flex, none, center, space-between, none);
+    padding: 1vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+
+    .top-left {
+        @include myflex (flex, none, center, none, 1vw);
+
+        i {
+            color: orange;
+        }
+
+    }
+
+    .right-button button {
+        background-color: orange;
+        border: none;
+        border-radius: 20px;
+        padding:0.6vw ;
+        width: 10vw;
+        color: white
+    }
+
+}
+
+.underNav {
+    @include myflex (flex, none, center, space-between, 1vw);
+    padding-right: 8vw;
+    padding-left: 8vw;
+    background-color: rgba(0, 0, 0, 0.775);
+    height: 9vh;
+
+    a {
+        text-decoration: none;
+        padding: 1vw;
+        color: white;
+    }
+
+    .logo {
+        color: white;
+    }
+
+    a:hover{
+        color: orange;
+    }
+
+}
