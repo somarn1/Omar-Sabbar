@@ -1,21 +1,18 @@
-/* GENERAL */
 body {
     font-family: Arial, sans-serif;
 }
 
-/* SECTION CONTAINER */
 .why-us {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;  /* كيرجّع WHY US و العنوان للوسط */
-    text-align: center;   /* باش الكتبة تكون فالوسط */
+    align-items: center;  
+    text-align: center;   
     padding: 60px 0;
 }
 
-/* WHY US badge */
 .badge {
-    color: #ff9d22;
+    color: orange;
     background: #ffe7c2;
     padding: 6px 22px;
     border-radius: 25px;
@@ -27,7 +24,7 @@ body {
 
 /* Main Title */
 .main-title {
-    font-size: 42px;
+    font-size: 30px;
     font-family: "Satisfy", cursive;
     font-weight: 700;
     margin-bottom: 40px;
@@ -37,39 +34,33 @@ body {
     color: orange;
 }
 
-/* BOXES WRAPPER (CENTERED) */
 .boxes {
-    width: 85%;               /* مايبقاش شاد الشاشة كاملة */
-    max-width: 1200px;        /* باش يجي بحال الصورة */
+    width: 85%;               
+    max-width: 1200px;       
     display: flex;
-    justify-content: center;  /* يديرهم فالوسط */
-    gap: 25px;
+    justify-content: center;
+    gap: 20px;  
 }
 
-/* SINGLE BOX */
 .box {
-    width: 33%;               /* كل box ياخد ثلث المساحة */
-    background: #fafafa;
+    width: 33%;              
+    background: rgba(128, 128, 128, 0.112);
     padding: 35px 30px;
     border-radius: 8px;
-    border: 1px solid #eee;
+    border: 1px solid white;
     transition: 0.3s;
-    cursor: pointer;
-
-    text-align: center;       /* النص فالوسط */
+    text-align: center;       
 }
 
-/* HOVER */
 .box:hover {
-    background: #ff9d22;
-    color: #fff;
+    background: orange;
+    color: white;
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 
-/* Number */
 .number {
-    color: #ff9d22;
+    color: orange;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -77,17 +68,15 @@ body {
 }
 
 .box:hover .number {
-    color: #fff;
+    color: white;
 }
 
-/* Box Title */
 .title {
     font-family: "Satisfy", cursive;
     font-size: 32px;
     margin-bottom: 10px;
 }
 
-/* Paragraph */
 .box p {
     color: #777;
     line-height: 1.6;
