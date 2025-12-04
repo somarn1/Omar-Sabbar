@@ -12170,6 +12170,19 @@ hr {
   border-radius: 6px;
 }
 
+.images-grid img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.carousel5stars {
+  background-image: url(../../../Delicious/images/testimonials-bg.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
 * {
   padding: 0;
   margin: 0;

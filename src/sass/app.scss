@@ -7,6 +7,19 @@
 
 
 
+
+// Add color
+
+$or: #ee9c04;
+
+$Omar-colors: (
+"or": $or, );
+
+
+$theme-colors: map-merge($Omar-colors , $theme-colors);
+
+
+
 // sass
 
 @import "./Variables";

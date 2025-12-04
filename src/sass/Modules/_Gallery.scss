@@ -12,4 +12,11 @@
     height: 35vh; 
     object-fit: cover;
     border-radius: 6px;
+
+}
+
+
+.images-grid img:hover{
+     transform: scale(1.1);
+     transition: 0.7s;
 }
