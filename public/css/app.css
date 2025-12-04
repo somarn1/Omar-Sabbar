@@ -11968,7 +11968,7 @@ textarea {
 
 .contact-info-box {
   width: 40%;
-  background: #fff;
+  background: white;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
@@ -12006,12 +12006,12 @@ textarea {
 
 .icon {
   font-size: 28px;
-  color: #f7a737;
+  color: orange;
 }
 
 hr {
   border: none;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid white;
   margin: 20px 0;
 }
 
@@ -12029,10 +12029,10 @@ hr {
 .contact-form textarea {
   width: 100%;
   padding: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid white;
   border-radius: 5px;
   font-size: 15px;
-  background: #fff;
+  background: white;
   transition: 0.3s ease;
 }
 
@@ -12047,18 +12047,18 @@ hr {
 
 .contact-form input:hover,
 .contact-form textarea:hover {
-  border-color: #f7a737;
+  border-color: orange;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #f7a737;
+  border-color: orange;
   outline: none;
 }
 
 .send-btn {
-  background: #f7a737;
-  color: #fff;
+  background: orange;
+  color: white;
   border: none;
   padding: 14px 40px;
   font-size: 16px;
@@ -12070,7 +12070,7 @@ hr {
 }
 
 .send-btn:hover {
-  background: #e29130;
+  background: orange;
 }
 
 .contact {
